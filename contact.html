@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ivan's Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="scripts/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bimg" title="Star Skylight">
+      <div class="topnav">
+        <ul>
+          <li>
+            <a href="homepage.html">Home</a>
+          </li>
+          <li>
+            <a href="aboutme.html">About Me</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="/contact.html" method="get">
+        <h2 class="contact-header">Contact me</h2>
+        <div class="contact-form-contents">
+          <input
+            class="contact-first-name"
+            name="first_name"
+            type="text"
+            placeholder="First"
+            required
+          /><br />
+          <input
+            class="contact-last-name"
+            name="last_name"
+            type="text"
+            placeholder="Last"
+            required
+          /><br />
+          <input
+            class="contact-email"
+            name="email"
+            type="text"
+            placeholder="Email"
+            required
+          /><br />
+          <input
+            class="contact-email-subject"
+            name="email_subject"
+            type="text"
+            placeholder="Subject"
+          /><br />
+          <textarea
+            class="contact-email-body"
+            name="email_body"
+            placeholder="Body"
+            required
+          ></textarea
+          ><br />
+          <input class="contact-submit" type="submit" value="submit" />
+        </div>
+      </form>
+    </div>
+    <footer class="footer">
+      <p class="author">Author: Ivan Lei</p>
+    </footer>
+  </body>
+</html>

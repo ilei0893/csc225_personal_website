@@ -1,0 +1,156 @@
+.topnav {
+  overflow: hidden;
+  padding: 10px 0 10px 0;
+  margin: 0px;
+  list-style: none;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Playfair Display", serif;
+}
+
+.topnav a {
+  color: #ffff;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.topnav ul {
+  list-style-type: none;
+}
+
+.topnav li {
+  display: inline;
+  padding: 14px;
+}
+.topnav li:hover {
+  text-decoration: underline;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.bimg {
+  background-image: url("../img/mountain.jpg");
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.about-container {
+  background: rgba(0, 0, 0, 0.589);
+  margin: auto;
+  margin-top: 2em;
+  width: 50%;
+  padding-top: 4em;
+  border-radius: 25px;
+}
+
+.about-content {
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.about-text {
+  color: white;
+  margin: auto;
+  padding-top: 1em;
+  width: 80%;
+}
+
+.about-github {
+  padding-top: 5px;
+  height: 2em;
+  width: 2em;
+  border-radius: 4em;
+}
+
+.about-linkedin {
+  padding-top: 5px;
+  height: 2em;
+  width: 2em;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.89);
+  overflow: hidden;
+}
+
+.author {
+  color: rgb(0, 0, 0);
+}
+
+.contact-header {
+  padding-top: 1em;
+  color: white;
+  text-align: center;
+}
+.contact-form {
+  height: 400px;
+  background: rgba(0, 0, 0, 0.589);
+  margin: auto;
+  margin-top: 2em;
+  width: 50%;
+  border-radius: 25px;
+}
+.contact-form-contents {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.contact-first-name {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2em;
+}
+
+.contact-last-name {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2em;
+}
+
+.contact-email {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2em;
+}
+
+.contact-email-subject {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2em;
+}
+
+.contact-email-body {
+  margin-bottom: 1em;
+  height: 6em;
+  width: 100%;
+}
+
+.contact-submit {
+  display: block;
+  margin: 0 auto;
+}
